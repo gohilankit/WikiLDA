@@ -7,8 +7,8 @@ Hadoop 2.6
 
 
 1. Create a Spark cluster on VCL by following the instructions at [this](https://github.com/amritbhanu/Spark_VCL) repository.
-2. Download the English Wikipedia XML BZip2 file. It can be downloaded in one of the two ways:
-  a) as torrent from [dump torrents] (https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki)
+2. Download the English Wikipedia XML BZip2 file. It can be downloaded in one of the two ways:  
+  a) as torrent from [dump torrents] (https://meta.wikimedia.org/wiki/Data_dump_torrents#enwiki)  
   b) direct download as multiple BZIP2 streams from the [dump](link https://dumps.wikimedia.org/enwiki/)
 3. Uncompress the bzip2 file using the below command. The uncompressed file is over 50GB. So make sure there is enough disk space  
 ```bzip2 -dk <filename>.bz2```
